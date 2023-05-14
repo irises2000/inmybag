@@ -1,0 +1,197 @@
+
+* {
+	margin:  0px;
+	padding:  0px;
+	box-sizing: border-box;
+}
+
+
+body {
+		font-family: cursive;
+		color:black;
+		background-color: #fd6bff;
+		/* background-image: url("grass1.jpg"); */
+		}
+
+
+#left-column {
+	padding: 20px;
+}
+
+h1 {
+	margin-bottom:  20px;
+	position: absolute;
+	top: 400px;
+	left: 880px;
+}
+
+
+
+.user_image {
+	z-index: -5;
+	position: absolute;
+}
+
+
+.headphone {
+	height:  450px;
+	position: absolute;
+	top: 130px;
+	left: -130px;
+
+}
+
+.usb {
+	height:  500px;
+	position: absolute;
+	top: 70px;
+	left: 600px;
+
+}
+
+.laptop01 {
+	height:  900px;
+	position: absolute;
+	top: 80px;
+	left: 1200px;
+	cursor: url("spidercursor4.png"),  auto;
+}
+
+.mouse {
+	height:  300px;
+	position: absolute;
+	top: 270px;
+	left: 1000px;
+
+}
+
+.pouch {
+	height: 520px;
+    position: absolute;
+    top: 500px;
+    left: 743px;
+}
+
+.battery {
+	height:  800px;
+	position: absolute;
+	top: 120px;
+	left: 180px;
+}
+
+.cream {
+	height:  100px;
+	position: absolute;
+	top: 50px;
+	left: 180px;
+}
+
+.jb-a {
+	margin: 0px auto;
+	position: relative;
+  }
+
+.jb-b {
+	position: absolute;
+	height:  500px;
+	top: 70px;
+	left: 700px;
+}
+  .jb-c {
+	position: absolute;
+	height:  500px;
+	top: 70px;
+	left: 700px;
+	display: none;
+  }
+
+  .jb-a:hover .jb-c {
+	display: block;
+  }
+
+  #circle1 {
+	width: 150px;
+	height: 150px;
+	background: rgb(22,255,0);
+background: radial-gradient(circle, rgba(22,255,0,1) 7%, rgba(253,107,255,0) 73%);
+	border-radius: 50%;
+	position: absolute;
+	top: 30px;
+    left: 646px;
+  }
+
+  #circle2 {
+	width: 600px;
+	height: 600px;
+	background: rgb(22,255,0);
+background: radial-gradient(circle, rgba(22,255,0,1) 7%, rgba(253,107,255,0) 73%);
+	border-radius: 50%;
+	position: absolute;
+	top: -60px;
+    left: 1050px;
+	z-index: -10;
+  }
+
+  #box1 {
+	width: 250px;
+    height: 36px;
+    background: rgb(22,255,0);
+    position: absolute;
+    top: 100px;
+    left: 755px;
+	z-index: -10;
+  }
+  
+  .usbtext{
+	font-size:  20px;
+	line-height: 30px;
+	position: absolute;
+    top: 103px;
+    left: 800px;
+	color:#fd6bff;
+}
+
+#box2 {
+	width: 200px;
+    height: 36px;
+    background: rgb(22,255,0);
+    position: absolute;
+    top: 150px;
+    left: 1190px;
+	z-index: -10;
+  }
+  
+  .laptoptext{
+	font-size:  20px;
+	line-height: 30px;
+	position: absolute;
+    top: 153px;
+    left: 1205px;
+	color:#fd6bff;
+}
+
+
+
+/* uncomment the code below to set the grid */
+
+/*#grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+body {
+	overflow: hidden;
+}
+
+.scroll {
+	padding:  20px;
+	overflow: scroll;
+	height: 100vh;
+}
+
+#left-column {
+}
+
+#right-column {
+	background: #333;
+}*/
